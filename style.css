@@ -1,0 +1,57 @@
+
+body {
+	margin: 0px;
+	background-color: black;
+}
+
+.regulationOfFirstSection {;    
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.slidingOpositeSpace {	
+	background-color: burlywood;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.slidindFullSpace {
+	background-color: brown;
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.mySlides {
+    border: 5px solid red;
+}
+
+.ImgstheLetters {
+}
+
+#slideLetterJ {
+    float: left;
+    padding: 2px 2px 2px 2px;
+}
+
+#slideLetterO {
+    float: left;
+    padding: 2px 2px 2px 2px;
+}
+
+#slideLetterA {
+    float: left;
+    padding: 2px 2px 2px 2px;
+}
+
+#slideSecondLetterO {
+    float: left;
+    padding: 2px 2px 2px 2px;
+}
+
+.imgs {
+    width: 100%;
+}
+
